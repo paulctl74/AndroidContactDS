@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">AndroidContactDS</string>
+    <array name="User">
+        <activity name=".ContactActivity" />
+    </array>
+
 </resources>
