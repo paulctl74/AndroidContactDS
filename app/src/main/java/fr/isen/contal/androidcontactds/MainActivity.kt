@@ -25,7 +25,7 @@ class MainActivity : AppCompatActivity() {
         binding.titre.text = title
         binding.listecontacts.layoutManager = LinearLayoutManager(this)
 
-        /*val recyclerView = findViewById<MainActivity>(R.id.listecontacts)
+        val recyclerView = findViewById<MainActivity>(R.id.listecontacts)
         val adapter = ContactActivity(recyclerView)
         recyclerView.adapter = adapter
 
@@ -43,7 +43,7 @@ class MainActivity : AppCompatActivity() {
 
             }
         )
-        queue.add(request)*/
+        queue.add(request)
 
 
 
